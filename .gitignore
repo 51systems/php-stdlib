@@ -1,0 +1,6 @@
+.idea
+
+# Composer files
+composer.phar
+composer.lock
+vendor/

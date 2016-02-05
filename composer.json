@@ -1,0 +1,37 @@
+{
+  "name": "51systems/php-stdlib",
+  "description": "Collection of extensions to Php that don't merit their own project.",
+  "license": "LGPL v3",
+  "type": "library",
+
+  "keywords": [
+    "results"
+  ],
+  "homepage": "https://github.com/51systems/php-stdlib",
+  "authors": [
+    {
+      "name": "Dustin Thomson",
+      "email": "dthomson@51systems.com"
+    }
+  ],
+
+  "require": {
+    "php": ">=5.3"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "~4"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "PhpStdlib\\": "src/"
+    }
+  },
+
+  "autoload-dev": {
+    "psr-4": {
+      "PhpStdlib\\Test\\": "test/"
+    }
+  }
+}
